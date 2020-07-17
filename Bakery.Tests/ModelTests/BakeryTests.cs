@@ -22,5 +22,12 @@ namespace Bakery.Tests
       Pastry pastry1 = new Pastry();
       Assert.AreEqual(typeof(Pastry), pastry1.GetType());
     }
+
+    [TestMethod]
+    public void OrderConstructor_CreateInstanceOfOrder_Order()
+    {
+      Order order1 = new Order();
+      Assert.AreEqual(typeof(Order), order1.GetType());
+    }
   }
 }
