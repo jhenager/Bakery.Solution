@@ -45,10 +45,10 @@ namespace Bakery.Tests
     }
 
     [TestMethod]
-    public void BreadTotal_CalculatesTotalBreadCostWithDeals_10()
+    public void BreadTotal_CalculatesTotalBreadCostWithDeals_15()
     {
-      Bread bread1 = new Bread(3);
-      Assert.AreEqual(10, bread1.BreadTotal());
+      Bread bread1 = new Bread(4);
+      Assert.AreEqual(15, bread1.BreadTotal());
     }
   }
 }

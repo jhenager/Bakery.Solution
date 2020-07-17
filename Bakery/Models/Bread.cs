@@ -14,8 +14,16 @@ namespace Bakery.Models
 
     public int BreadTotal()
     {
-      Total = BreadOrder * 5;
-      return Total;
+      if (BreadOrder>2)
+      {
+        Total = BreadOrder*5-((BreadOrder/3)*5);
+        return Total;
+      }
+      else
+      {
+        Total = BreadOrder * 5;
+        return Total;
+      }
     }
   }
 }
