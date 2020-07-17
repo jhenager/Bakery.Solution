@@ -29,5 +29,13 @@ namespace Bakery.Tests
       Order order1 = new Order();
       Assert.AreEqual(typeof(Order), order1.GetType());
     }
+
+    [TestMethod]
+
+    public void BreadTotal_CalculatesTotalBreadCost_10()
+    {
+      Bread bread1 = new Bread(2);
+      Assert.AreEqual(10, bread1.BreadTotal());
+    }
   }
 }
