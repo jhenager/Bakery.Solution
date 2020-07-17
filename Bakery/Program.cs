@@ -14,7 +14,10 @@ namespace Bakery
       Console.WriteLine("How many loaves of bread would you like?");
       int breadInput = int.Parse(Console.ReadLine());
       Bread bread1 = new Bread(breadInput);
-      Console.WriteLine(bread1.BreadTotal());
+      Console.WriteLine("How many pastries would you like?");
+      int pastryInput = int.Parse(Console.ReadLine());
+      Pastry pastry1 = new Pastry(pastryInput);
+      Console.WriteLine(pastry1.PastryTotal());
     }
   }
 }
