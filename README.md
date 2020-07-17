@@ -14,7 +14,7 @@ _Long description._
 |Program should create class for Bread |  |  |  |
 |Program should create class for Pastry  |  |  |  |
 |Program should create class for Order  |  |  |  |
-|Program should add a price property for Bread  |  |  |  |
+|Program should add a method for calculating price for Bread per x amount of orders | 3 Orders |  |  |
 |Program should add a price property for Pastry  |  |  |  |
 |Program should add Bread or Pastry to Order when instantiated|  |  |  |
 |Program should add a total cost property to the Order Class  |  |  |  |

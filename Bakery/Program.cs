@@ -1,6 +1,7 @@
 using System;
+using Bakery.Models;
 
-namespace ProjectName
+namespace Bakery
 {
   public class Program
   {
