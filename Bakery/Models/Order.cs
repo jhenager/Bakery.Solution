@@ -1,6 +1,6 @@
 namespace Bakery.Models
 {
-  public class Bread
+  public class Order
   {
     // properties, constructors, methods, etc. go here
   }
