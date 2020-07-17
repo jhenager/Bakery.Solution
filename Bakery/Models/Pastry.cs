@@ -13,8 +13,16 @@ namespace Bakery.Models
 
     public int PastryTotal()
     {
-      Total = PastryOrder * 2;
-      return Total;
+      if (PastryOrder>2)
+      {
+        Total = PastryOrder*2-(PastryOrder/3);
+        return Total;
+      }
+      else
+      {
+        Total = PastryOrder * 2;
+        return Total;
+      }
     }
   }
 }

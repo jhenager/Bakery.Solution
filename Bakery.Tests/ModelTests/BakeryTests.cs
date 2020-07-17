@@ -52,10 +52,10 @@ namespace Bakery.Tests
     }
 
     [TestMethod]
-    public void PastryTotal_CalculatesTotalPastryCostWithDeals_7()
+    public void PastryTotal_CalculatesTotalPastryCostWithDeals_9()
     {
-      Pastry pastry1 = new Pastry(4);
-      Assert.AreEqual(7, pastry1.PastryTotal());
+      Pastry pastry1 = new Pastry(5);
+      Assert.AreEqual(9, pastry1.PastryTotal());
     }
   }
 }
