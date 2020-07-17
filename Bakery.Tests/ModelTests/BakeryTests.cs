@@ -19,7 +19,7 @@ namespace Bakery.Tests
     [TestMethod]
     public void PastryConstructor_CreateInstanceOfPastry_Pastry()
     {
-      Pastry pastry1 = new Pastry();
+      Pastry pastry1 = new Pastry(1);
       Assert.AreEqual(typeof(Pastry), pastry1.GetType());
     }
 
@@ -31,11 +31,17 @@ namespace Bakery.Tests
     }
 
     [TestMethod]
-
     public void BreadTotal_CalculatesTotalBreadCost_10()
     {
       Bread bread1 = new Bread(2);
       Assert.AreEqual(10, bread1.BreadTotal());
+    }
+
+    [TestMethod]
+    public void PastryTotal_CalculatesTotalPastryCost_4()
+    {
+      Pastry pastry1 = new Pastry(2);
+      Assert.AreEqual(4, pastry1.PastryTotal());
     }
   }
 }
