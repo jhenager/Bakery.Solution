@@ -27,10 +27,10 @@ _This console application is designed to take orders for a bakery. The user will
 1. This program utilizes .NET version 3.1, and requires this framework to be pre-installed:
     * Please go to https://dotnet.microsoft.com/download/dotnet-core/3.1 and install the SDK   version 3.1 or greater patch version, but do not upgrade to a higher minor version number.
 2. Clone this repository onto your computer: https://github.com/...
-3. In your preferred terminal window, navigate into PROJECTNAME.SOLUTIONS/PROJECTNAME using cd (i.e. cd desktop/PROJECTNAME.SOLUTIONS/PROJECTNAME) and open the project with your preferred code editor.
+3. In your preferred terminal window, navigate into Bakery.Solution/Bakery using cd (i.e. cd desktop/Bakery.Solution/Bakery) and open the project with your preferred code editor.
 4. Run the following terminal command: $ dotnet restore
 5. To initiate this terminal program, run the command: $ dotnet run
-6. To run the test suite included with this project, within the terminal navigate into PROJECTNAME.TESTS and run the following commands:
+6. To run the test suite included with this project, navigate into Bakery.Tests within the terminal and run the following commands:
     * $ dotnet restore
     * $ dotnet test
 
