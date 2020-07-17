@@ -8,7 +8,13 @@ namespace Bakery.Models
     public Order(int allBread, int allPastry)
     {
       AllBread = allBread;
-      AllPastry = AllPastry;
+      AllPastry = allPastry;
+    }
+
+    public int OrderTotal()
+    {
+      int total = 0;
+      return total;
     }
   }
 }

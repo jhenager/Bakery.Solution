@@ -65,5 +65,12 @@ namespace Bakery.Tests
       Order order1 = new Order(bread1.BreadTotal(), 1);
       Assert.AreEqual(10, order1.AllBread);
     }
+
+    [TestMethod]
+    public void OrderTotal_AddsParametersTogether_11()
+    {
+      Order order1 = new Order(5,6);
+      Assert.AreEqual(11, order1.OrderTotal());
+    }
   }
 }
