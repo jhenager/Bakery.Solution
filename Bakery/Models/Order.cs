@@ -13,7 +13,7 @@ namespace Bakery.Models
 
     public int OrderTotal()
     {
-      int total = 0;
+      int total = AllBread+AllPastry;
       return total;
     }
   }
