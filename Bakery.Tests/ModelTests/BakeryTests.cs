@@ -26,7 +26,7 @@ namespace Bakery.Tests
     [TestMethod]
     public void OrderConstructor_CreateInstanceOfOrder_Order()
     {
-      Order order1 = new Order();
+      Order order1 = new Order(1, 1);
       Assert.AreEqual(typeof(Order), order1.GetType());
     }
 
@@ -56,6 +56,14 @@ namespace Bakery.Tests
     {
       Pastry pastry1 = new Pastry(5);
       Assert.AreEqual(9, pastry1.PastryTotal());
+    }
+
+    [TestMethod]
+    public void OrderConstructor_PassesBreadTotalsAsParameter_10()
+    {
+      Bread bread1 = new Bread(3);
+      Order order1 = new Order(bread1.BreadTotal(), 1);
+      Assert.AreEqual(10, order1.AllBread);
     }
   }
 }
