@@ -50,5 +50,12 @@ namespace Bakery.Tests
       Bread bread1 = new Bread(4);
       Assert.AreEqual(15, bread1.BreadTotal());
     }
+
+    [TestMethod]
+    public void PastryTotal_CalculatesTotalPastryCostWithDeals_7()
+    {
+      Pastry pastry1 = new Pastry(4);
+      Assert.AreEqual(7, pastry1.PastryTotal());
+    }
   }
 }
