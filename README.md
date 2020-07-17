@@ -1,8 +1,8 @@
-# _PROJECT NAME_
+# _Bakery_
 
-#### _SHORT DESCRIPTION_
+#### _Console Application for Ordering Baked Goods_
 
-#### By _**YOUR NAME HERE**_
+#### By _**James Henager**_
 
 ## Description
 
@@ -34,7 +34,7 @@ _ _
 
 ## Support and contact details
 
-_Contact me at...._
+_Contact me at jameschenager@gmail.com_
 
 ## Technologies Used
 
